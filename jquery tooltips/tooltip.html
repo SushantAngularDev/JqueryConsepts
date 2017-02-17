@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap ToolTip</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+  <script src="jquery/jquery-3.1.0.js"></script>
+  <script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h3>Tooltip Example</h3>
+  <a href="#" data-toggle="tooltip" title="click me" style="background-color:green;"><input type="button" name="btn1" id="btn1" value="Register"/></a>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+</body>
+</html>

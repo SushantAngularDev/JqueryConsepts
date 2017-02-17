@@ -1,0 +1,23 @@
+{
+    "products":[
+        {
+            "name":"iphone3s",
+            "id":"1",
+            "description":"this is awesome",
+            "price":"2000"
+        },
+        {
+            "name":"iphone4s",
+            "id":"2",
+            "description":"this is more awesome",
+            "price":"3000"
+        },
+        {
+            "name":"iphone5s",
+            "id":"3",
+            "description":"this is very awesome",
+            "price":"4000"
+        }
+        
+    ]
+}
